@@ -1,0 +1,19 @@
+.submitBtn {
+  width: 100%;
+  height: 64px;
+  border-radius: 32px;
+  border: none;
+  background-image: linear-gradient(
+    270deg,
+    #c23584 0%,
+    #e2306c 24.48%,
+    #f77736 83.85%,
+    #fa963e 100%
+  );
+  &:hover {
+    cursor: pointer;
+  }
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}

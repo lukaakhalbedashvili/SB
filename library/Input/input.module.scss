@@ -1,0 +1,32 @@
+.inputMainWrapper {
+  position: relative;
+  background-color: white;
+  .input {
+    height: 54px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    line-height: 32px;
+    font-size: 18px;
+    color: rgba(33, 38, 40, 0.5);
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: white !important;
+    &.error {
+      border-color: rgba(253, 29, 29, 1);
+    }
+  }
+  .cardNumberIcon {
+    position: absolute;
+    right: 25px;
+    top: 16px;
+  }
+  .errorMessage {
+    position: absolute;
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    color: rgba(253, 29, 29, 1);
+  }
+}

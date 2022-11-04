@@ -1,0 +1,129 @@
+.signUpFormMain {
+  padding-top: 30px;
+  padding-left: 64px;
+  padding-right: 64px;
+  width: 552px;
+  height: 852px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+  .pricing {
+    display: flex;
+    align-items: baseline;
+    .plan {
+      display: flex;
+      flex-direction: column;
+
+      & :nth-child(1) {
+        margin: 0;
+        line-height: 48px;
+        font-size: 25px;
+        font-weight: 700;
+      }
+      & :nth-child(2) {
+        margin: 0;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 23px;
+        color: #212628;
+        opacity: 0.6;
+      }
+    }
+
+    .planPrice {
+      margin-left: 91px;
+      font-weight: 700;
+      font-size: 23px;
+      line-height: 25px;
+    }
+  }
+  .signUpForm {
+    height: fit-content;
+    .emailInputWrapper {
+      margin-top: 43px;
+    }
+    .cardHolderWrapper {
+      margin-top: 27px;
+    }
+    .cardNumberWrapper {
+      margin-top: 27px;
+    }
+    .dateAndCVVWrapper {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 27px;
+      .dateWrapper {
+        width: 282px;
+      }
+      .cvvWrapper {
+        width: 120px;
+      }
+    }
+    .countryAndZipWrapper {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 27px;
+      .countryWrapper {
+        width: 282px;
+      }
+      .zipWrapper {
+        width: 120px;
+      }
+    }
+    .termsAndStuff {
+      display: flex;
+      flex-direction: column;
+      margin-top: 33px;
+      position: relative;
+      .termsAndStuffContent {
+        display: flex;
+        align-items: center;
+      }
+      .errorMessage {
+        color: rgba(253, 29, 29, 1);
+      }
+      .checkboxWrapper {
+        margin-right: 20px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 22px;
+        margin: 0;
+      }
+      a {
+        margin: 0;
+        color: rgba(225, 48, 108, 0.8);
+        text-decoration: underline;
+        font-size: 16px;
+        line-height: 22px;
+        margin: 0 7px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    .submitBtnWrapper {
+      display: flex;
+      justify-content: center;
+      margin-top: 29px;
+      .submitBtn {
+        width: 370px;
+      }
+    }
+    .couponWrapper {
+      display: flex;
+      justify-content: center;
+      margin: 2px 0;
+      p {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 32px;
+        color: #e1306c;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.currentStageMain {
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 198px;
+  justify-content: space-between;
+  .line {
+    position: absolute;
+    left: 19px;
+  }
+  .activeStageBall circle {
+    fill: #c0c0c0;
+  }
+  .activeStageBall.active circle {
+    fill: #ef5c4bcc;
+  }
+}
