@@ -1,5 +1,5 @@
 import { useFormik } from "formik";
-import { signUpContext } from "pages/sign-up/signUpContext";
+import { signUpContext } from "context/signUpContext";
 import React, { useContext, useRef, useState } from "react";
 
 import * as Yup from "yup";

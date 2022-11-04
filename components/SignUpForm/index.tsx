@@ -1,7 +1,7 @@
 import Checkox from "library/Checkox";
 import Input from "library/Input";
 import SubmitBtn from "library/SubmitBtn";
-import { signUpContext } from "pages/sign-up/signUpContext";
+import { signUpContext } from "context/signUpContext";
 import { useContext } from "react";
 import Styles from "./signUpForm.module.scss";
 import useSignUpForm from "./useSignUpForm";

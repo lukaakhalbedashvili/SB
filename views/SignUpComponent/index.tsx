@@ -5,7 +5,7 @@ import CurrentStage from "../../library/CurrentStage";
 import { SignUpPageStages } from "../../components/types";
 
 import Styles from "./signUpComponent.module.scss";
-import { signUpContext } from "pages/sign-up/signUpContext";
+import { signUpContext } from "context/signUpContext";
 import SuccessModal from "components/SuccessModal";
 const SignUpComponent = () => {
   const [activeStage, setActiveStage] = useState<SignUpPageStages>(

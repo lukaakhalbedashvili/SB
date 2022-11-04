@@ -1,5 +1,5 @@
+import SignUpProvider from "context/SignUpProvider";
 import SignUpComponent from "views/SignUpComponent";
-import SignUpProvider from "./SignUpProvider";
 
 const SignUp = () => {
   return (
